@@ -43,7 +43,7 @@ var linkMenu = [
     ["/r/Minecraft", "https://www.reddit.com/r/minecraft/", ""],
     ["/r/NintendoSwitch", "https://www.reddit.com/r/nintendoswitch/", ""],
     ["/r/Splatoon", "https://www.reddit.com/r/splatoon/", ""],
-    ["/r/CursedImages", "https://www.reddit.com/r/cursedimages/", ""]
+    ["/r/CursedImages", "https://www.reddit.com/r/cursedimages/", ""],
     [svgCode, "red", "-HEAD-"],
     ["GitHub", "https://github.com", ""],
     ["Envato", "https://market.envato.com", ""],
