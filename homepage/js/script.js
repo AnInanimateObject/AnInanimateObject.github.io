@@ -212,22 +212,12 @@ function initSearchBar() {
 }
 
 function buildDate() {
-    var today = new Date();
-
-    var hours, minutes, seconds;
-
-    (today.getHours() < 10) ? hours = "0" + today.getHours (): hours = today.getHours ();
-    (today.getMinutes() < 10) ? minutes = "0" + today.getMinutes (): minutes = today.getMinutes ();
-    (today.getSeconds() < 10) ? seconds = "0" + today.getSeconds (): seconds = today.getSeconds ();
-
-    dateDiv.innerHTML = "<font class=\"font-3em\">" +
-        monthNames[today.getMonth()] + " " +
-        today.getDate() + "</font><br><font>" +
-        dayNames[today.getDay()] + ", " +
-        today.getFullYear() + "<br>" +
-        hours + ":" + minutes + ":" + seconds + "</br></font>";
-
-    setTimeout (buildDate, 1000);
+    var t = new Date,
+        e = 12 < t.getHours() ? t.getHours() - 12 : t.getHours(),
+        o = 12 <= t.getHours() ? "PM" : "AM";
+    (e = e < 10 ? "0" + e : e) < 1 && (e = 12);
+    var s = e + ":" + (t.getMinutes() < 10 ? "0" + t.getMinutes() : t.getMinutes()) + ":" + (t.getSeconds() < 10 ? "0" + t.getSeconds() : t.getSeconds()) + " " + o;
+    dateDiv.innerHTML = '<font class="font-2em">' + dayNames[t.getDay()] + "<br>" + monthNames[t.getMonth()] + " " + t.getDate() + ", " + t.getFullYear() + "<br>" + s + "</font>", setTimeout(buildDate, 1e3)
 }
 
 function buildHelp() {
