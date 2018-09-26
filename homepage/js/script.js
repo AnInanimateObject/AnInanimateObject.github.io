@@ -27,12 +27,12 @@ var linkMenu = [
     ["Netflix", "https://www.netflix.com", ""],
     ["Hulu", "https://www.hulu.com", ""],
     ["SoundCloud", "https://soundcloud.com", ""],
-    ["Crunchyroll", "http://www.crunchyroll.com", ""]
+    ["Crunchyroll", "http://www.crunchyroll.com", ""],
     [svgSocial, "green", "-HEAD-"],
     ["YouTube", "https://www.youtube.com", ""],
     ["Facebook", "https://www.facebook.com", ""],
     ["Twitter", "https://twitter.com", ""],
-    ["Discord", "https://discordapp.com", ""]
+    ["Discord", "https://discordapp.com", ""],
     [svgReddit, "cyan", "-HEAD-"],
     ["Reddit", "https://www.reddit.com", ""],
     ["/r/AskReddit", "https://www.reddit.com/r/askreddit/", ""],
