@@ -8,7 +8,7 @@ var cmdPrefix = "!";
 var ssi = 0;
 var searchSources = [
     ["g", "https://www.google.com/?gws_rd=ssl#q={Q}", "Google"],
-    ["a", "http://www.amazon.com/s/&field-keywords={Q}", "Amazon"],
+    ["f", "http://fitgirl-repacks.site/?s={Q}", "Fitgirl Repacks"],
     ["r", "https://www.reddit.com/search?q={Q}", "Reddit"],
     ["w", "http://en.wikipedia.org/w/index.php?search={Q}", "Wikipedia"],
     ["y", "https://www.youtube.com/results?search_query={Q}", "YouTube"],
