@@ -8,10 +8,10 @@ var cmdPrefix = "!";
 var ssi = 0;
 var searchSources = [
     ["g", "https://www.google.com/?gws_rd=ssl#q={Q}", "Google"],
-    ["i", "https://www.google.com/search?q={Q}&source=lnms&tbm=isch&sa=X", "Google Images"],
     ["r", "https://www.reddit.com/search?q={Q}", "Reddit"],
     ["w", "http://en.wikipedia.org/w/index.php?search={Q}", "Wikipedia"],
     ["y", "https://www.youtube.com/results?search_query={Q}", "YouTube"],
+    ["i", "https://www.google.com/search?q={Q}&source=lnms&tbm=isch&sa=X", "Google Images"],
     ["u", "https://{Q}", "URL"],
     ["ww", "http://warframe.wikia.com/wiki/Special:Search?search=+{Q}", "Warframe Wiki"]
 ];
